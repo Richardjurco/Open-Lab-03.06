@@ -1,16 +1,25 @@
 using System;
 
-namespace Open_Lab_03._07
+namespace Open_Lab_03._06
 {
-    public class Divider
+    public class Checker
     {
-        public bool EqualSlices(int total, int people, int each)
+        public bool HasSpaces(string str)
         {
-
-            if (total >= people * each)
-            { return true; }
-            else 
-                   { return false; }
+            if (str.Contains(" ")) 
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+        
+        
+        
+        
+        
+        
+        
         }
     }
 }
